@@ -1,7 +1,54 @@
+div {
+  border: 2px solid red;
+}
+
+main {
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
 h1 {
   color: salmon;
+  text-align: center;
 }
 
 form {
   display: inline;
+}
+
+#liveThereVid {
+  background-color: gray;
+  height: 300px;
+}
+
+#bookingBar {
+  height: 40px;
+  margin-top: -40px;
+}
+
+#guideButton {
+  display: block;
+  margin: 0 auto;
+}
+
+.subHeader > p {
+  text-align: center;
+}
+
+.divContainer {}
+
+.desinationPics {
+  background-image: url("https://media.timeout.com/images/100644443/image.jpg");
+  height: 100px;
+  width: 100px;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
